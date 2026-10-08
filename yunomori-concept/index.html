@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Yunomori Onsen & Spa — Independent Homepage Concept by Valewick House</title>
+  <meta name="description" content="An independent homepage concept for Yunomori Onsen & Spa by Valewick House. Not commissioned by or affiliated with Yunomori.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Concept disclosure -->
+  <div class="concept-bar" role="note">
+    Independent homepage concept by Valewick House &mdash; not commissioned by, or affiliated with, Yunomori.
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top" aria-label="Yunomori Onsen & Spa — top of page">
+      <span class="wordmark__kanji" lang="ja" aria-hidden="true">湯の森</span>
+      <span class="wordmark__latin">Yunomori</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#experience">Experience</a>
+      <a href="#onsen">Onsen</a>
+      <a href="#spa">Spa &amp; Wellness</a>
+      <a href="#locations">Locations</a>
+    </nav>
+    <a class="btn btn--small btn--solid header-cta" href="https://www.yunomorionsen.com/" target="_blank" rel="noopener">Book Your Visit</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="menu" id="menu" hidden>
+    <nav aria-label="Mobile">
+      <a href="#experience">Experience</a>
+      <a href="#onsen">Onsen</a>
+      <a href="#spa">Spa &amp; Wellness</a>
+      <a href="#locations">Locations</a>
+    </nav>
+    <a class="btn btn--solid btn--block" href="https://www.yunomorionsen.com/" target="_blank" rel="noopener">Book Your Visit</a>
+  </div>
+
+  <main>
+
+    <!-- 1. HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__media scene scene--hero" data-parallax="0.12">
+        <!-- Drop licensed photography/video at assets/img/hero.jpg to replace the art-directed placeholder -->
+        <img class="scene__photo" src="assets/img/hero.jpg" alt="" onerror="this.remove()">
+        <div class="scene__timber"></div>
+        <div class="scene__water"></div>
+        <div class="steam"><i></i><i></i><i></i><i></i></div>
+        <div class="scene__grain"></div>
+        <div class="scene__vignette"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow eyebrow--light reveal">Japanese onsen &middot; Thai wellness</p>
+        <h1 id="hero-title" class="display hero__title">
+          <span class="line"><span>Escape</span></span>
+          <span class="line"><span>Into <em>Yunomori.</em></span></span>
+        </h1>
+        <p class="hero__lede reveal" style="--d:.9s">
+          Mineral waters, Japanese bathing tradition and Thai healing culture, together in one quiet sanctuary.
+        </p>
+        <div class="hero__actions reveal" style="--d:1.1s">
+          <a class="btn btn--solid" href="#experience">Explore Yunomori</a>
+          <a class="btn btn--ghost" href="https://www.yunomorionsen.com/" target="_blank" rel="noopener">Book Your Visit</a>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#experience" aria-label="Scroll to The Experience"><span></span></a>
+    </section>
+
+    <!-- 2. THE EXPERIENCE -->
+    <section class="experience section" id="experience" aria-labelledby="exp-title">
+      <div class="experience__grid">
+        <div class="experience__text">
+          <p class="eyebrow reveal"><span class="num">01</span> The Experience</p>
+          <h2 id="exp-title" class="display display--l reveal">An escape from the <em>pace</em> of everyday life.</h2>
+          <p class="lede reveal">
+            Born in Bangkok, Yunomori is Southeast Asia&rsquo;s first authentic onsen spa, blending time-honoured Japanese bathing traditions with Thai healing culture.
+          </p>
+          <p class="body reveal">
+            Soak first. Let the warmth settle the body and quiet the mind. Then let the hands of traditional massage do the rest.
+          </p>
+        </div>
+
+        <figure class="experience__img experience__img--a img-reveal">
+          <div class="media" data-parallax-inner="0.06">
+            <div class="scene scene--stone">
+              <img class="scene__photo" src="assets/img/experience-1.jpg" alt="Warm timber and natural stone beside quiet water" onerror="this.remove()">
+              <div class="scene__timber"></div><div class="scene__grain"></div>
+            </div>
+          </div>
+          <figcaption>Timber &middot; Stone &middot; Water</figcaption>
+        </figure>
+
+        <figure class="experience__img experience__img--b img-reveal" data-parallax="-0.05">
+          <div class="media">
+            <div class="scene scene--steam">
+              <img class="scene__photo" src="assets/img/experience-2.jpg" alt="Steam rising from an onsen at dusk" onerror="this.remove()">
+              <div class="steam steam--soft"><i></i><i></i><i></i></div>
+              <div class="scene__grain"></div>
+            </div>
+          </div>
+        </figure>
+
+        <p class="experience__kanji" lang="ja" aria-hidden="true">湯の森</p>
+        <p class="experience__gloss reveal">Yunomori &mdash; &ldquo;hot water in the forest&rdquo;</p>
+      </div>
+    </section>
+
+    <!-- 3. ONSEN -->
+    <section class="onsen" id="onsen" aria-labelledby="onsen-title">
+      <div class="onsen__media scene scene--water" data-parallax="0.1">
+        <img class="scene__photo" src="assets/img/onsen.jpg" alt="Mineral-rich onsen water with rising steam" onerror="this.remove()">
+        <div class="scene__water"></div>
+        <div class="steam"><i></i><i></i><i></i></div>
+        <div class="scene__grain"></div>
+        <div class="scene__vignette"></div>
+      </div>
+      <div class="onsen__inner">
+        <p class="eyebrow eyebrow--light reveal"><span class="num">02</span> The Onsen</p>
+        <h2 id="onsen-title" class="display display--xl reveal">Mineral-rich<br>waters.</h2>
+        <div class="onsen__notes">
+          <p class="reveal">Yunomori&rsquo;s onsens use real mineral spring water sourced from Wat Wangkanai in Kanchanaburi.</p>
+          <p class="reveal" style="--d:.15s">Warmed muscles and a quiet mind leave the body more receptive to the benefits of traditional massage.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SPA / WELLNESS -->
+    <section class="spa section" id="spa" aria-labelledby="spa-title">
+      <div class="spa__grid">
+        <figure class="spa__img img-reveal">
+          <div class="media" data-parallax-inner="0.06">
+            <div class="scene scene--timber">
+              <img class="scene__photo" src="assets/img/spa.jpg" alt="A quiet, warmly lit treatment room" onerror="this.remove()">
+              <div class="scene__timber scene__timber--fine"></div>
+              <div class="scene__grain"></div>
+              <div class="scene__vignette"></div>
+            </div>
+          </div>
+        </figure>
+
+        <div class="spa__text">
+          <p class="eyebrow reveal"><span class="num">03</span> Spa &amp; Wellness</p>
+          <h2 id="spa-title" class="display display--l reveal">After the water, <em>the stillness.</em></h2>
+          <p class="lede reveal">
+            Pair the onsen with expertly delivered Thai and aromatherapy massages to release deep tension and reawaken the senses.
+          </p>
+          <ul class="spa__list" aria-label="Spa and massage services">
+            <li class="reveal">Traditional Thai massage</li>
+            <li class="reveal">Herbal compress</li>
+            <li class="reveal">Head, shoulder &amp; foot massage</li>
+            <li class="reveal">Deep tissue massage</li>
+            <li class="reveal">Aromatherapy massage</li>
+          </ul>
+          <p class="note reveal">Services vary by location.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. LOCATIONS -->
+    <section class="locations section" id="locations" aria-labelledby="loc-title">
+      <div class="locations__head">
+        <p class="eyebrow reveal"><span class="num">04</span> Visit</p>
+        <h2 id="loc-title" class="display display--l reveal">Four places to <em>begin.</em></h2>
+        <p class="lede reveal">Each location offers its own setting and tailored wellness experiences.</p>
+      </div>
+
+      <ul class="locations__list">
+        <li class="loc reveal">
+          <a href="https://www.yunomorionsen.com/" target="_blank" rel="noopener">
+            <span class="loc__name">Sukhumvit</span>
+            <span class="loc__meta">Sukhumvit Soi 26, Bangkok</span>
+            <span class="loc__line">The original urban oasis.</span>
+            <span class="loc__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+        <li class="loc reveal">
+          <a href="https://www.yunomorionsen.com/" target="_blank" rel="noopener">
+            <span class="loc__name">Sathorn 10</span>
+            <span class="loc__meta">Sathorn Soi 10, Bangkok</span>
+            <span class="loc__line">A hidden gem in the heart of the city.</span>
+            <span class="loc__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+        <li class="loc reveal">
+          <a href="https://www.yunomorionsen.com/pattaya" target="_blank" rel="noopener">
+            <span class="loc__name">Pattaya</span>
+            <span class="loc__meta">Pattaya, Thailand</span>
+            <span class="loc__line">A retreat infused with sea breeze and calm.</span>
+            <span class="loc__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+        <li class="loc reveal">
+          <a href="https://www.yunomorionsen.com/" target="_blank" rel="noopener">
+            <span class="loc__name">Singapore</span>
+            <span class="loc__meta">Singapore</span>
+            <span class="loc__line">A modern take on ancient healing.</span>
+            <span class="loc__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+      </ul>
+      <p class="note locations__note reveal">We recommend booking at least two days ahead to secure your preferred time and location.</p>
+    </section>
+
+    <!-- 6. FINAL CTA -->
+    <section class="final" aria-labelledby="final-title">
+      <div class="final__media scene scene--hero scene--dusk" data-parallax="0.1">
+        <img class="scene__photo" src="assets/img/final.jpg" alt="" onerror="this.remove()">
+        <div class="scene__timber"></div>
+        <div class="scene__water"></div>
+        <div class="steam"><i></i><i></i><i></i></div>
+        <div class="scene__grain"></div>
+        <div class="scene__vignette"></div>
+      </div>
+      <div class="final__inner">
+        <h2 id="final-title" class="display display--xl reveal">Your escape<br><em>begins here.</em></h2>
+        <a class="btn btn--solid btn--large reveal" style="--d:.2s" href="https://www.yunomorionsen.com/" target="_blank" rel="noopener">Book Your Visit</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__brand">
+      <span class="wordmark__kanji" lang="ja" aria-hidden="true">湯の森</span>
+      <span class="wordmark__latin">Yunomori Onsen &amp; Spa</span>
+    </div>
+    <p class="site-footer__disclaimer">
+      Independent Homepage Concept by <strong>Valewick House</strong>. This is an unsolicited design exploration, not commissioned by or affiliated with Yunomori Onsen &amp; Spa. All brand names belong to their respective owners. Imagery shown is art-directed placeholder, to be replaced with licensed photography.
+    </p>
+  </footer>
+
+  <!-- Mobile booking bar -->
+  <div class="book-bar" aria-hidden="true">
+    <a class="btn btn--solid btn--block" href="https://www.yunomorionsen.com/" target="_blank" rel="noopener" tabindex="-1">Book Your Visit</a>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
